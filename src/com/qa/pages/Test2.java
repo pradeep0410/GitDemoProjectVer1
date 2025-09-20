@@ -6,11 +6,11 @@ public class Test2 {
 
 		String hungry = "yes";
 		
-		if(hungry=="yes") {
-			System.out.println("eat something....");
+		if(hungry=="yes" || hungry=="Y" || hungry== "y") {
+			System.out.println("take something....");
 			
 		}else {
-			System.out.println("do work....");
+			System.out.println("just get back to work....");
 		}
 
 	}
